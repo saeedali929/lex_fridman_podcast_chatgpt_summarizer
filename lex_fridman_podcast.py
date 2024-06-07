@@ -37,7 +37,7 @@ def summarize_text(transcript_text):
 def main():
     url = "https://lexfridman.com/podcast/"
     href_value = get_most_recent_transcript_link(url)
-    transcript_text = get_transcript_text(href_value)
+    transcript_text = get_most_recent_transcript_text(href_value)
     summary = summarize_text(transcript_text)
     print("Generated Summary:", summary)
 
