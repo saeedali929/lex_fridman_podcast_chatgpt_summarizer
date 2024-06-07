@@ -42,7 +42,7 @@ def main():
     print("Generated Summary:", summary)
 
 
-
+main()
 
 
 
