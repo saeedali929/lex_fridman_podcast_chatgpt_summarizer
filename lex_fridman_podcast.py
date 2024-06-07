@@ -44,8 +44,6 @@ def main():
 
 
 
-# Extract the generated summary from the response
-summary = response['choices'][0]['message']['content']
-print("Generated Summary:", summary)
+
 
 
