@@ -4,7 +4,7 @@ import openai
 from summarizer import Summarizer
 
 # OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'sk-proj-y59ILqN5H5Tn4NTRUlNKT3BlbkFJTb9GpSgPzlVFvd6ogHrh'
 
 # Episode's url
 url = "https://lexfridman.com/podcast/"
